@@ -34,8 +34,12 @@
       </tags>
   </entry>
   <entry>
-    <title>starting</title>
+    <title>포스팅을 위한 hexo 문법들</title>
     <url>/2020/05/28/starting/</url>
     <content><![CDATA[]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>마크다운</tag>
+      </tags>
   </entry>
 </search>
