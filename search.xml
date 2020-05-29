@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>안녕하세요!</title>
+    <url>/2020/05/28/first/</url>
+    <content><![CDATA[<p>안녕하세요 현재 대학생인 게임개발자 지망생입니다.<br>앞으로 여기에다가 게임 개발 일지나 알고리즘 풀이등을 올릴 예정입니다.<br>자기계발을 위해 조금씩이라도 꾸준히 포스팅하겠습니다!</p>
+]]></content>
+      <categories>
+        <category>잡담</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>알고리즘</tag>
+        <tag>게임 개발</tag>
+        <tag>시작</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/05/28/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external nofollow noopener noreferrer">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external nofollow noopener noreferrer">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external nofollow noopener noreferrer">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external nofollow noopener noreferrer">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external nofollow noopener noreferrer">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="external nofollow noopener noreferrer">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>포스팅을 위한 hexo 문법들</title>
     <url>/2020/05/28/starting/</url>
     <content><![CDATA[<h1 id="마크다운-문법"><a href="#마크다운-문법" class="headerlink" title="마크다운 문법"></a>마크다운 문법</h1><h3 id="1-제목-크기-변경"><a href="#1-제목-크기-변경" class="headerlink" title="1. 제목 크기 변경"></a>1. 제목 크기 변경</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 제목 1</span><br><span class="line">## 제목 2</span><br><span class="line">### 제목 3</span><br><span class="line">#### 제목 4</span><br><span class="line">##### 제목 5</span><br><span class="line">###### 제목 6</span><br></pre></td></tr></table></figure>
@@ -48,46 +81,13 @@
 <h3 id="4-강조"><a href="#4-강조" class="headerlink" title="4. 강조"></a>4. 강조</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">이텔릭체 - *이텔릭체* or _이텔릭체_</span><br><span class="line">두껍게 - **두껍게** or __두껍게__</span><br><span class="line">두껍게+이텔릭체 - **_이텔릭체_**</span><br></pre></td></tr></table></figure>
 <p>아래와 같이 표시된다.<br>이텔릭체 - <em>이텔릭체</em> or <em>이텔릭체</em><br>두껍게 - <strong>두껍게</strong> or <strong>두껍게</strong><br>두껍게+이텔릭체 - <strong><em>이텔릭체</em></strong></p>
 <h3 id="5-코드-넣기"><a href="#5-코드-넣기" class="headerlink" title="5. 코드 넣기"></a>5. 코드 넣기</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;csharp</span><br><span class="line">using System;</span><br><span class="line"></span><br><span class="line">class Lecture&#123;</span><br><span class="line">	public static void Main(stirng[] args)&#123;</span><br><span class="line">	Console.WriteLine(&quot;안녕하세요&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;csharp</span><br><span class="line">using System;</span><br><span class="line"></span><br><span class="line">class Lecture&#123;</span><br><span class="line">	public static void Main(stirng[] args)&#123;</span><br><span class="line">	Console.WriteLine(&quot;안녕하세요&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&#96;&#96;&#96;csharp</span><br><span class="line">using System;</span><br><span class="line"></span><br><span class="line">class Lecture&#123;</span><br><span class="line">	public static void Main(stirng[] args)&#123;</span><br><span class="line">	Console.WriteLine(&quot;안녕하세요&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h1 id="포스팅-작성-완료-후-업로드"><a href="#포스팅-작성-완료-후-업로드" class="headerlink" title="포스팅 작성 완료 후 업로드"></a>포스팅 작성 완료 후 업로드</h1><p>방법 1<br>hexo generate<br>hexo deploy</p>
 <p>방법2<br>hexo clean &amp;&amp; hexo deploy -g</p>
 ]]></content>
       <tags>
         <tag>hexo</tag>
         <tag>마크다운</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/05/28/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external nofollow noopener noreferrer">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external nofollow noopener noreferrer">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external nofollow noopener noreferrer">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external nofollow noopener noreferrer">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external nofollow noopener noreferrer">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="external nofollow noopener noreferrer">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>안녕하세요!</title>
-    <url>/2020/05/28/first/</url>
-    <content><![CDATA[<p>안녕하세요 현재 대학생인 게임개발자 지망생입니다.<br>앞으로 여기에다가 게임 개발 일지나 알고리즘 풀이등을 올릴 예정입니다.<br>자기계발을 위해 조금씩이라도 꾸준히 포스팅하겠습니다!</p>
-]]></content>
-      <categories>
-        <category>잡담</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>알고리즘</tag>
-        <tag>게임 개발</tag>
-        <tag>시작</tag>
       </tags>
   </entry>
 </search>
