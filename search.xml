@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>안녕하세요!</title>
-    <url>/2020/05/28/first/</url>
-    <content><![CDATA[<p>안녕하세요 현재 대학생인 게임개발자 지망생입니다.<br>앞으로 여기에다가 게임 개발 일지나 알고리즘 풀이등을 올릴 예정입니다.<br>자기계발을 위해 조금씩이라도 꾸준히 포스팅하겠습니다!</p>
+    <title>포스팅을 위한 hexo 문법들</title>
+    <url>/2020/05/28/starting/</url>
+    <content><![CDATA[<p>&lt;마크다운 사용법&gt;<br>/# 제목 1<br>/## 제목 2<br>/### 제목 3<br>/#### 제목 4<br>/##### 제목 5<br>/###### 제목 6</p>
+<blockquote>
+<p>1단계</p>
+<blockquote>
+<p>2단계</p>
+</blockquote>
+</blockquote>
+<p>포스팅 작성 완료 후 업데이트<br>:<br>방법 1<br>hexo generate<br>hexo deploy</p>
+<p>방법2<br>ㅊ</p>
 ]]></content>
-      <categories>
-        <category>잡담</category>
-      </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>알고리즘</tag>
-        <tag>게임 개발</tag>
-        <tag>시작</tag>
+        <tag>마크다운</tag>
       </tags>
   </entry>
   <entry>
@@ -34,20 +37,18 @@
 ]]></content>
   </entry>
   <entry>
-    <title>포스팅을 위한 hexo 문법들</title>
-    <url>/2020/05/28/starting/</url>
-    <content><![CDATA[<p>&lt;마크다운 사용법&gt;<br>/# 제목 1<br>/## 제목 2<br>/### 제목 3<br>/#### 제목 4<br>/##### 제목 5<br>/###### 제목 6</p>
-<pre>
-<code>
-public static void main(string[] args){
-Console.WriteLine("나여깄어");</code>
-</pre>
-<p>포스팅 작성 완료 후 업데이트<br>:<br>방법 1<br>hexo generate<br>hexo deploy</p>
-<p>방법2<br>ㅊ</p>
+    <title>안녕하세요!</title>
+    <url>/2020/05/28/first/</url>
+    <content><![CDATA[<p>안녕하세요 현재 대학생인 게임개발자 지망생입니다.<br>앞으로 여기에다가 게임 개발 일지나 알고리즘 풀이등을 올릴 예정입니다.<br>자기계발을 위해 조금씩이라도 꾸준히 포스팅하겠습니다!</p>
 ]]></content>
+      <categories>
+        <category>잡담</category>
+      </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>마크다운</tag>
+        <tag>알고리즘</tag>
+        <tag>게임 개발</tag>
+        <tag>시작</tag>
       </tags>
   </entry>
 </search>

@@ -9,7 +9,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>게임 개발을 공부하고 있는 대학생입니다.</description>
-    <pubDate>Fri, 29 May 2020 11:57:54 GMT</pubDate>
+    <pubDate>Fri, 29 May 2020 12:41:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -22,15 +22,15 @@
         
         
           &lt;p&gt;&amp;lt;마크다운 사용법&amp;gt;&lt;br&gt;/# 제목 1&lt;br&gt;/## 제목 2&lt;br&gt;/### 제목 3&lt;br&gt;/#### 제목 4&lt;br&gt;/##### 제목 5&lt;br&gt;/###### 제목 6&lt;/p&gt;
-&lt;pre&gt;
-&lt;code&gt;
-public static void mai
+&lt;blockquote&gt;
+&lt;p&gt;1단계&lt;/p&gt;
+&lt;blockquote
         
       
       </description>
       
       
-      <content:encoded><![CDATA[<p>&lt;마크다운 사용법&gt;<br>/# 제목 1<br>/## 제목 2<br>/### 제목 3<br>/#### 제목 4<br>/##### 제목 5<br>/###### 제목 6</p><pre><code>public static void main(string[] args){Console.WriteLine("나여깄어");</code></pre><p>포스팅 작성 완료 후 업데이트<br>:<br>방법 1<br>hexo generate<br>hexo deploy</p><p>방법2<br>ㅊ</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>&lt;마크다운 사용법&gt;<br>/# 제목 1<br>/## 제목 2<br>/### 제목 3<br>/#### 제목 4<br>/##### 제목 5<br>/###### 제목 6</p><blockquote><p>1단계</p><blockquote><p>2단계</p></blockquote></blockquote><p>포스팅 작성 완료 후 업데이트<br>:<br>방법 1<br>hexo generate<br>hexo deploy</p><p>방법2<br>ㅊ</p>]]></content:encoded>
       
       <comments>http://sangjin256.github.io/2020/05/28/starting/#disqus_thread</comments>
     </item>
