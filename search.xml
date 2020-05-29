@@ -99,6 +99,18 @@
 <div class="video-container"><iframe src="https://www.youtube.com/embed/eDEFolvLn0A" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <h3 id="9-포스트-삽입"><a href="#9-포스트-삽입" class="headerlink" title="9. 포스트 삽입"></a>9. 포스트 삽입</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% post_path slug %&#125;</span><br><span class="line">&#123;% post_link slug [title] %&#125;</span><br></pre></td></tr></table></figure>
 <p>아래와 깉이 slug[title]부분에 포스트 파일 제목을 입력하면 된다.</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% post_link first %&#125;</span><br></pre></td></tr></table></figure>
