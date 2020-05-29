@@ -49,6 +49,11 @@
 </blockquote>
 </blockquote>
 </blockquote>
+<p>##저자와 출처 제목이 있는 경우 아래와 같이 사용한다.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote 토마스 C. 게일,Thomas C. Gale %&#125;</span><br><span class="line">사랑에는 실패가 없다.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote><p>사랑에는 실패가 없다.</p>
+<footer><strong>토마스 C. 게일</strong><cite>Thomas C. Gale</cite></footer></blockquote>
+
 <h3 id="3-글머리-기호"><a href="#3-글머리-기호" class="headerlink" title="3. 글머리 기호"></a>3. 글머리 기호</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">* 프로그래밍</span><br><span class="line">  * 프로그래밍</span><br><span class="line">    * 프로그래밍</span><br><span class="line">  </span><br><span class="line">+ 프로그래밍</span><br><span class="line">  + 프로그래밍</span><br><span class="line">    + 프로그래밍</span><br><span class="line"></span><br><span class="line">- 프로그래밍</span><br><span class="line">  - 프로그래밍</span><br><span class="line">    - 프로그래밍</span><br></pre></td></tr></table></figure>
 <p>아래와 같이 표시된다.<br>첫번째 줄보다 2칸 이상씩 띄어서 써야한다.</p>
 <ul>
@@ -80,9 +85,14 @@
 </ul>
 <h3 id="4-강조"><a href="#4-강조" class="headerlink" title="4. 강조"></a>4. 강조</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">이텔릭체 - *이텔릭체* or _이텔릭체_</span><br><span class="line">두껍게 - **두껍게** or __두껍게__</span><br><span class="line">두껍게+이텔릭체 - **_이텔릭체_**</span><br></pre></td></tr></table></figure>
 <p>아래와 같이 표시된다.<br>이텔릭체 - <em>이텔릭체</em> or <em>이텔릭체</em><br>두껍게 - <strong>두껍게</strong> or <strong>두껍게</strong><br>두껍게+이텔릭체 - <strong><em>이텔릭체</em></strong></p>
-<h3 id="5-코드-넣기"><a href="#5-코드-넣기" class="headerlink" title="5. 코드 넣기"></a>5. 코드 넣기</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;csharp</span><br><span class="line">using System;</span><br><span class="line"></span><br><span class="line">class Lecture&#123;</span><br><span class="line">	public static void Main(stirng[] args)&#123;</span><br><span class="line">		Console.WriteLine(&quot;안녕하세요&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title">Lecture</span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="keyword">string</span>[] args</span>)</span>&#123;</span><br><span class="line">		Console.WriteLine(<span class="string">"안녕하세요"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="5-코드-넣기"><a href="#5-코드-넣기" class="headerlink" title="5. 코드 넣기"></a>5. 코드 넣기</h3><figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title">Lecture</span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params">stirng[] args</span>)</span>&#123;</span><br><span class="line">		Console.WriteLine(<span class="string">"안녕하세요"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>코드 시작과 끝에 Tab위에있는 버튼을 3번씩 쓰면된다.</p>
+<h3 id="6-수평선"><a href="#6-수평선" class="headerlink" title="6. 수평선"></a>6. 수평선</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line">- - -</span><br></pre></td></tr></table></figure>
+<p>모두 아래와 같이 표시된다.</p>
+<hr>
+<hr>
+<h2 id="7-링크"><a href="#7-링크" class="headerlink" title="7. 링크"></a>7. 링크</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[Google](https:&#x2F;&#x2F;google.com)</span><br><span class="line">[Naver](https:&#x2F;&#x2F;naver.com)</span><br></pre></td></tr></table></figure>
+<p><a href="https://google.com" target="_blank" rel="external nofollow noopener noreferrer">Google</a><br><a href="https://naver.com" target="_blank" rel="external nofollow noopener noreferrer">Naver</a></p>
 <h1 id="포스팅-작성-완료-후-업로드"><a href="#포스팅-작성-완료-후-업로드" class="headerlink" title="포스팅 작성 완료 후 업로드"></a>포스팅 작성 완료 후 업로드</h1><p>방법 1<br>hexo generate<br>hexo deploy</p>
 <p>방법2<br>hexo clean &amp;&amp; hexo deploy -g</p>
 ]]></content>
