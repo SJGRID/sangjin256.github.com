@@ -28,7 +28,7 @@
 <meta property="og:description" content="마크다운 문법1. 제목 크기 변경123456# 제목 1## 제목 2### 제목 3#### 제목 4##### 제목 5###### 제목 6 아래와 같이 표시된다. 제목 1제목 2제목 3제목 4제목 5제목 62. 인용문123&gt; “좋은 디자인은 그 때문에 소모되는 비용보다 빠르게 가치가 쌓인다.”&gt;&gt; “좋은 디자인은 그 때문에 소모되는 비용보다 빠">
 <meta property="og:locale" content="ko_KR">
 <meta property="article:published_time" content="2020-05-28T12:05:57.000Z">
-<meta property="article:modified_time" content="2020-05-29T14:32:46.318Z">
+<meta property="article:modified_time" content="2020-05-29T14:37:39.751Z">
 <meta property="article:author" content="Sangjin Lee">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="마크다운">
@@ -193,8 +193,17 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Updated at: 2020-05-29 14:32:46" itemprop="dateModified" datetime="2020-05-29T14:32:46+00:00">2020-05-29</time>
+                <time title="Updated at: 2020-05-29 14:37:39" itemprop="dateModified" datetime="2020-05-29T14:37:39+00:00">2020-05-29</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%EC%9E%A1%EB%8B%B4/" itemprop="url" rel="index"><span itemprop="name">잡담</span></a>
+                </span>
+            </span>
 
           
   
@@ -234,10 +243,10 @@
 </blockquote>
 </blockquote>
 </blockquote>
-<p>##저자와 출처 제목이 있는 경우 아래와 같이 사용한다.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote 토마스 C. 게일,Thomas C. Gale %&#125;</span><br><span class="line">좋은 디자인은 그 때문에 소모되는 비용보다 빠르게 가치가 쌓인다.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="저자와-출처-제목이-있는-경우-아래와-같이-사용한다"><a href="#저자와-출처-제목이-있는-경우-아래와-같이-사용한다" class="headerlink" title="저자와 출처 제목이 있는 경우 아래와 같이 사용한다."></a>저자와 출처 제목이 있는 경우 아래와 같이 사용한다.</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote 토마스 C. 게일,Thomas C. Gale %&#125;</span><br><span class="line">좋은 디자인은 그 때문에 소모되는 비용보다 빠르게 가치가 쌓인다.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote><p>좋은 디자인은 그 때문에 소모되는 비용보다 빠르게 가치가 쌓인다.</p>
 <footer><strong>토마스 C. 게일</strong><cite>Thomas C. Gale</cite></footer></blockquote>
+
 
 <h3 id="3-글머리-기호"><a href="#3-글머리-기호" class="headerlink" title="3. 글머리 기호"></a>3. 글머리 기호</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">* 프로그래밍</span><br><span class="line">  * 프로그래밍</span><br><span class="line">    * 프로그래밍</span><br><span class="line">  </span><br><span class="line">+ 프로그래밍</span><br><span class="line">  + 프로그래밍</span><br><span class="line">    + 프로그래밍</span><br><span class="line"></span><br><span class="line">- 프로그래밍</span><br><span class="line">  - 프로그래밍</span><br><span class="line">    - 프로그래밍</span><br></pre></td></tr></table></figure>
 <p>아래와 같이 표시된다.<br>첫번째 줄보다 2칸 이상씩 띄어서 써야한다.</p>
@@ -283,10 +292,13 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% youtube eDEFolvLn0A %&#125;</span><br></pre></td></tr></table></figure>
 <div class="video-container"><iframe src="https://www.youtube.com/embed/eDEFolvLn0A" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
 
+
 <h3 id="9-포스트-삽입"><a href="#9-포스트-삽입" class="headerlink" title="9. 포스트 삽입"></a>9. 포스트 삽입</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% post_path slug %&#125;</span><br><span class="line">&#123;% post_link slug [title] %&#125;</span><br></pre></td></tr></table></figure>
 <p>아래와 깉이 slug[title]부분에 포스트 파일 제목을 입력하면 된다.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% post_link first %&#125;</span><br></pre></td></tr></table></figure>
 <a href="/2020/05/28/first/" title="안녕하세요!">안녕하세요!</a>
+
+
 
 <h1 id="포스팅-작성-완료-후-업로드"><a href="#포스팅-작성-완료-후-업로드" class="headerlink" title="포스팅 작성 완료 후 업로드"></a>포스팅 작성 완료 후 업로드</h1><p>방법 1<br>hexo generate<br>hexo deploy</p>
 <p>방법2<br>hexo clean &amp;&amp; hexo deploy -g</p>
@@ -378,7 +390,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#마크다운-문법"><span class="nav-number">1.</span> <span class="nav-text">마크다운 문법</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-제목-크기-변경"><span class="nav-number">1.0.1.</span> <span class="nav-text">1. 제목 크기 변경</span></a></li></ol></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#제목-1"><span class="nav-number">2.</span> <span class="nav-text">제목 1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#제목-2"><span class="nav-number">2.1.</span> <span class="nav-text">제목 2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#제목-3"><span class="nav-number">2.1.1.</span> <span class="nav-text">제목 3</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#제목-4"><span class="nav-number">2.1.1.1.</span> <span class="nav-text">제목 4</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#제목-5"><span class="nav-number">2.1.1.1.1.</span> <span class="nav-text">제목 5</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#제목-6"><span class="nav-number">2.1.1.1.1.1.</span> <span class="nav-text">제목 6</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-인용문"><span class="nav-number">2.1.2.</span> <span class="nav-text">2. 인용문</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-글머리-기호"><span class="nav-number">2.1.3.</span> <span class="nav-text">3. 글머리 기호</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-강조"><span class="nav-number">2.1.4.</span> <span class="nav-text">4. 강조</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-코드-넣기"><span class="nav-number">2.1.5.</span> <span class="nav-text">5. 코드 넣기</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-수평선"><span class="nav-number">2.1.6.</span> <span class="nav-text">6. 수평선</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-링크"><span class="nav-number">2.1.7.</span> <span class="nav-text">7. 링크</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-유튜브"><span class="nav-number">2.1.8.</span> <span class="nav-text">8. 유튜브</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-포스트-삽입"><span class="nav-number">2.1.9.</span> <span class="nav-text">9. 포스트 삽입</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#포스팅-작성-완료-후-업로드"><span class="nav-number">3.</span> <span class="nav-text">포스팅 작성 완료 후 업로드</span></a></li></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#마크다운-문법"><span class="nav-number">1.</span> <span class="nav-text">마크다운 문법</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-제목-크기-변경"><span class="nav-number">1.0.1.</span> <span class="nav-text">1. 제목 크기 변경</span></a></li></ol></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#제목-1"><span class="nav-number">2.</span> <span class="nav-text">제목 1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#제목-2"><span class="nav-number">2.1.</span> <span class="nav-text">제목 2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#제목-3"><span class="nav-number">2.1.1.</span> <span class="nav-text">제목 3</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#제목-4"><span class="nav-number">2.1.1.1.</span> <span class="nav-text">제목 4</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#제목-5"><span class="nav-number">2.1.1.1.1.</span> <span class="nav-text">제목 5</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#제목-6"><span class="nav-number">2.1.1.1.1.1.</span> <span class="nav-text">제목 6</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-인용문"><span class="nav-number">2.1.2.</span> <span class="nav-text">2. 인용문</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#저자와-출처-제목이-있는-경우-아래와-같이-사용한다"><span class="nav-number">2.1.2.1.</span> <span class="nav-text">저자와 출처 제목이 있는 경우 아래와 같이 사용한다.</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-글머리-기호"><span class="nav-number">2.1.3.</span> <span class="nav-text">3. 글머리 기호</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-강조"><span class="nav-number">2.1.4.</span> <span class="nav-text">4. 강조</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-코드-넣기"><span class="nav-number">2.1.5.</span> <span class="nav-text">5. 코드 넣기</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-수평선"><span class="nav-number">2.1.6.</span> <span class="nav-text">6. 수평선</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-링크"><span class="nav-number">2.1.7.</span> <span class="nav-text">7. 링크</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-유튜브"><span class="nav-number">2.1.8.</span> <span class="nav-text">8. 유튜브</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-포스트-삽입"><span class="nav-number">2.1.9.</span> <span class="nav-text">9. 포스트 삽입</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#포스팅-작성-완료-후-업로드"><span class="nav-number">3.</span> <span class="nav-text">포스팅 작성 완료 후 업로드</span></a></li></div>
       </div>
       <!--/noindex-->
 
