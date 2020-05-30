@@ -208,7 +208,7 @@
               <span class="post-meta-item-text">작성일</span>
               
 
-              <time title="Post created: 2020-05-30 02:39:22 / Updated at: 12:13:07" itemprop="dateCreated datePublished" datetime="2020-05-30T02:39:22+00:00">2020-05-30</time>
+              <time title="Post created: 2020-05-30 02:39:22 / Updated at: 12:17:18" itemprop="dateCreated datePublished" datetime="2020-05-30T02:39:22+00:00">2020-05-30</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -266,8 +266,9 @@
 <h3 id="퀵-정렬"><a href="#퀵-정렬" class="headerlink" title="퀵 정렬"></a>퀵 정렬</h3><h5 id="O-nlogn-시간에-동작-1"><a href="#O-nlogn-시간에-동작-1" class="headerlink" title="O(nlogn)시간에 동작"></a>O(nlogn)시간에 동작</h5><p>일반적으로 사용되고 있는 아주 빠른 정렬 알고리즘<br>2개의 그룹을 나누는 기준인 피벗을 정하고(보통 중앙) 피벗 이하의 요소를 배열 왼쪽으로, 이상의 요소를 배열 오른쪽으로 옮겨야 함.<br>그렇게 하기 위해서 아래의 작업을 먼저 수행<br>피벗을 x, 왼쪽 끝 요소의 인덱스 pl을 왼쪽 커서, 오른쪽 끝 요소의 인덱스 pr을 오른쪽 커서라고 할때</p>
 <ol>
 <li>a[pl] &gt;= x가 성립하는 요소를 찾을 때까지 pl을 오른쪽으로 스캔</li>
-<li>a[pr] &lt;= x가 성립하는 요소를 찾을 때까지 pr을 왼쪽으로 스캔<br>스캔이 완료되면 a[pl]과 a[pr]의 값을 교환하고 다시 스캔을 진행한다.<br>스캔을 진행하다보면 pl과 pr이 교차하는 지점이 나오는데 그 지점으로 나뉘는 두 개의 그룹을 가지고 다시 퀵 정렬을 시작한다.</li>
+<li>a[pr] &lt;= x가 성립하는 요소를 찾을 때까지 pr을 왼쪽으로 스캔</li>
 </ol>
+<p>스캔이 완료되면 a[pl]과 a[pr]의 값을 교환하고 다시 스캔을 진행한다.<br>스캔을 진행하다보면 pl과 pr이 교차하는 지점이 나오는데 그 지점으로 나뉘는 두 개의 그룹을 가지고 다시 퀵 정렬을 시작한다.</p>
 <figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">QuickSort</span>(<span class="params"><span class="keyword">int</span>[] a, <span class="keyword">int</span> left, <span class="keyword">int</span> right</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">int</span> pl = left;</span><br><span class="line">	<span class="keyword">int</span> pr = right;</span><br><span class="line">	<span class="keyword">int</span> x = a[(pl+pr) / <span class="number">2</span>];</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">do</span>&#123;</span><br><span class="line">		<span class="keyword">while</span>(a[pl] &lt; x) pl++;</span><br><span class="line">		<span class="keyword">while</span>(a[pr] &gt; x) pr--;</span><br><span class="line">		<span class="keyword">if</span>(pl &lt;= pr) Swap(a, pl++, pr--);</span><br><span class="line">	&#125; <span class="keyword">while</span>(pl &lt;= pr);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">if</span>(left &lt; pr) QuickSort(a, left, pr);</span><br><span class="line">	<span class="keyword">if</span>(pl &lt; right) QuickSort(a, pl, right);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h4 id="비재귀적인-퀵-정렬"><a href="#비재귀적인-퀵-정렬" class="headerlink" title="비재귀적인 퀵 정렬"></a>비재귀적인 퀵 정렬</h4><p>재귀는 함수를 호출하기 때문에 직관적이기는 하지만 비재귀에 비해 시간 성능이 저하된다.<br>재귀가 더 좋을때도 있지만 대부분의 경우에는 비재귀가 더 효율적인데 퀵 정렬같은 정렬 알고리즘이 그 예이다.</p>
