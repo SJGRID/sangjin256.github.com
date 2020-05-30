@@ -9,8 +9,28 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>게임 개발을 공부하고 있는 대학생입니다.</description>
-    <pubDate>Sat, 30 May 2020 02:25:23 GMT</pubDate>
+    <pubDate>Sat, 30 May 2020 03:32:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>정렬 알고리즘</title>
+      <link>http://sangjin256.github.io/2020/05/30/sort/[object%20Object]/[object%20Object]/</link>
+      <guid>http://sangjin256.github.io/2020/05/30/sort/[object%20Object]/[object%20Object]/</guid>
+      <pubDate>Sat, 30 May 2020 02:39:22 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h3 id=&quot;정렬이란&quot;&gt;&lt;a href=&quot;#정렬이란&quot; class=&quot;headerlink&quot; title=&quot;정렬이란?&quot;&gt;&lt;/a&gt;정렬이란?&lt;/h3&gt;&lt;p&gt;정렬(sorting)은 이름, 학번, 키 등 핵심 항목의 대소 관계에 따라 데이터 집합을 일정한 순서로 줄지
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<h3 id="정렬이란"><a href="#정렬이란" class="headerlink" title="정렬이란?"></a>정렬이란?</h3><p>정렬(sorting)은 이름, 학번, 키 등 핵심 항목의 대소 관계에 따라 데이터 집합을 일정한 순서로 줄지어 늘어서도록 바꾸는 작업을 말한다. 정렬을 하면 검색을 더 쉽게 할 수 있게 된다.</p><h3 id="버블-정렬"><a href="#버블-정렬" class="headerlink" title="버블 정렬"></a>버블 정렬</h3><h5 id="O-n-2-시간에-동작"><a href="#O-n-2-시간에-동작" class="headerlink" title="O(n^2)시간에 동작"></a>O(n^2)시간에 동작</h5><p>이웃한 두 요소의 대소 관계를 비교하여 교환을 반복하는 정렬 방법</p>]]></content:encoded>
+      
+      <comments>http://sangjin256.github.io/2020/05/30/sort/[object%20Object]/[object%20Object]/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>너의 결혼식 감상평</title>
