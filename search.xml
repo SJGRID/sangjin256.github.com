@@ -16,13 +16,26 @@
       </tags>
   </entry>
   <entry>
+    <title>너의 결혼식 감상평</title>
+    <url>/2020/05/30/onyourweddingday/%5Bobject%20Object%5D/%5Bobject%20Object%5D/</url>
+    <content><![CDATA[<p>“첫사랑은 이루어지지 않는다”라는 말이 있다. 나는 경험상 이 말을 믿게 되었다. 그러나 내 주변에는 첫사랑으로 2000일이 넘도록 사귀고 있는 현재진행형 커플도 있다. 하지만 이런 경우가 많은가? 절대 그렇지 않다. 주변을 둘러보면 알 수 있을 것이다. 그럼 왜 첫사랑은 이루어지지 않는 것일까?<br>이 영화는 ‘첫사랑’에 대한 소재를 아주 현실적으로 사용하고 있다. 주인공 ‘황우연’은 고등학교 때 전학 온 여주 ‘환승희’에게 한눈에 반한 뒤로 세월이 흘러도 쭉 첫사랑인 그녀만 바라보는 캐릭터이다. 그러나 매번 만날때마다 타이밍이 좋지 않다. 한번은 여주에게 남친이 있고 한번은 남주에게 여친이 있고…(감독이 정말 잔인하다.) 이 영화는 ‘황우연’의 시점으로만 이야기가 전개되는데 이 시점이 ‘황우연’에게 더 공감되고 응원하게 만드는 데에 큰 역할을 했다고 생각한다. 양쪽 시점으로 전개됐다면 서로의 상황을 이해시키려는 감독의 목적에 의해 한명에게 이입시킬때보다 ‘영화’라는 매체가 부각되어 큰 여운을 주지는 못했을 것이다.<br>‘황우연’의 시점으로 그가 여주를 얼마나 사랑했는지를 알기에 엔딩이 더욱 안쓰러웠고 씁쓸했다. 하지만 인생이라는 게 다 그렇지 않겠는가? 첫사랑은 ‘첫’사랑일 뿐이다. 영화에 나온 대사처럼 버스가 가면 다음 버스가 오듯이 첫사랑의 어리숙함을 딛고 일어서야만 더욱 더 성장함으로서 진실된 사랑을 할 수 있다. 이 영화의 포스터는 사진을 세로로 이어붙인 형태인데 영화를 다 보고 나니 이것이 필름을 상징한다는 느낌을 받았다. 필름을 재생하면 사진 하나하나가 지나가면서 한편의 영화가 되듯이, 첫사랑도 흘러흘러 하나의 추억으로 남는다는 감독의 의도가 담긴 게 아닐까?<br>자, 그럼 처음 던졌던 질문에 대한 답은 나왔다고 생각한다. 이 글을 읽은 독자들도 한번 자신의 인생을 되돌아보며 첫사랑에 대해 생각해보자. 자신의 첫사랑이 어땠는지를.</p>
+]]></content>
+      <categories>
+        <category>리뷰</category>
+        <category>영화</category>
+      </categories>
+      <tags>
+        <tag>영화 - 리뷰 - 감상 - 너의결혼식</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>정렬 알고리즘</title>
     <url>/2020/05/30/sort/%5Bobject%20Object%5D/%5Bobject%20Object%5D/</url>
     <content><![CDATA[<h3 id="정렬이란"><a href="#정렬이란" class="headerlink" title="정렬이란?"></a>정렬이란?</h3><p>정렬(sorting)은 이름, 학번, 키 등 핵심 항목의 대소 관계에 따라 데이터 집합을 일정한 순서로 줄지어 늘어서도록 바꾸는 작업을 말한다. 정렬을 하면 검색을 더 쉽게 할 수 있게 된다.</p>
 <h4 id="swap-메소드"><a href="#swap-메소드" class="headerlink" title="swap 메소드"></a>swap 메소드</h4><p>기본적으로 아래의 정렬들에서 쓸 swap 메소드를 미리 정의하는게 편합니다.</p>
 <figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Swap</span>(<span class="params"><span class="keyword">int</span>[] arr, <span class="keyword">int</span> a, <span class="keyword">int</span> b</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">int</span> tmp = arr[a];</span><br><span class="line">	arr[a] = arr[b];</span><br><span class="line">	arr[b] = tmp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h3 id="버블-정렬"><a href="#버블-정렬" class="headerlink" title="버블 정렬"></a>버블 정렬</h3><h5 id="O-n2-시간에-동작"><a href="#O-n2-시간에-동작" class="headerlink" title="O(n2)시간에 동작"></a>O(n<sup>2)시간에 동작</sup></h5><p>이웃한 두 요소의 대소 관계를 비교하여 교환을 반복하는 정렬 방법</p>
+<h3 id="버블-정렬"><a href="#버블-정렬" class="headerlink" title="버블 정렬"></a>버블 정렬</h3><h5 id="O-n2-시간에-동작"><a href="#O-n2-시간에-동작" class="headerlink" title="O(n2 )시간에 동작"></a>O(n<sup>2 )시간에 동작</sup></h5><p>이웃한 두 요소의 대소 관계를 비교하여 교환을 반복하는 정렬 방법</p>
 <h4 id="기본-코드"><a href="#기본-코드" class="headerlink" title="기본 코드"></a>기본 코드</h4><p>a[j-1]과 a[j]를 비교해서 앞쪽이 크면 교환하고 그 이후의 비교, 교환 과정은 바로 앞쪽에서 수행해야 하므로 j의 값이 1씩 감소한다.<br>각 과정에서 앞쪽 i개의 요소는 정렬이 끝난 상태라고 가정하므로 한 번의 과정에서는 j의 값이 i+1이 될 때까지 비교, 교환을 수행하면 된다.</p>
 <figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">BubbleSort</span>(<span class="params"><span class="keyword">int</span>[] a, <span class="keyword">int</span> n</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n<span class="number">-1</span>; i++)&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j = n<span class="number">-1</span>; j &gt; i; j--)&#123;</span><br><span class="line">			<span class="keyword">if</span>(a[j<span class="number">-1</span>] &gt; a[j]) Swap(a, j<span class="number">-1</span>, j);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -46,7 +59,7 @@
 <h3 id="힙-정렬"><a href="#힙-정렬" class="headerlink" title="힙 정렬"></a>힙 정렬</h3><h5 id="O-nlogn-시간에-동작-2"><a href="#O-nlogn-시간에-동작-2" class="headerlink" title="O(nlogn)시간에 동작"></a>O(nlogn)시간에 동작</h5><p>힙(heap)을 사용하는 정렬 방법<br>힙은 &#39;부모의 값이 자식의 값보다 항상 크다’(또는 그 반대)는 조건을 만족하는 완전이진트리<br>가장 큰 값이 루트에 위치한다는 특징을 이용<br>downheap 메소드를 사용하여 a[left] ~ a[right]의 요소를 힙으로 만들고 루트(a[0])에 있는 가장 큰 값을 빼내어 배열 마지막 요소와 바꾸고 배열의 나머지 부분을 다시 힙으로 만드는 과정을 반복하여 정렬을 수행</p>
 <figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">DownHeap</span>(<span class="params"><span class="keyword">int</span>[] a, <span class="keyword">int</span> left, <span class="keyword">int</span> right</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">int</span> tmp = a[left];</span><br><span class="line">	<span class="keyword">int</span> child;</span><br><span class="line">	<span class="keyword">int</span> parent;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">for</span>(parent = left; parent &lt; (right + <span class="number">1</span>) / <span class="number">2</span>; parent = child)&#123;</span><br><span class="line">		<span class="keyword">int</span> cl = parent * <span class="number">2</span> + <span class="number">1</span>;</span><br><span class="line">		<span class="keyword">int</span> cr = cl + <span class="number">1</span>;</span><br><span class="line">		child = (cr &lt;= right &amp;&amp; a[cr] &gt; a[cl]) ? cr : cl;</span><br><span class="line">		<span class="keyword">if</span>(tmp &gt;= a[child]) <span class="keyword">break</span>;</span><br><span class="line">		a[parent] = a[child];</span><br><span class="line">	&#125;</span><br><span class="line">	a[parent] = tmp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">HeapSort</span>(<span class="params"><span class="keyword">int</span>[] a, <span class="keyword">int</span> n</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = (n<span class="number">-1</span>) / <span class="number">2</span>; i &gt;= <span class="number">0</span>; i--) DownHeap(a, i, n<span class="number">-1</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = n<span class="number">-1</span>; i &gt; <span class="number">0</span>; i--)&#123;</span><br><span class="line">		Swap(a, <span class="number">0</span>, i);</span><br><span class="line">		DownHeap(a, <span class="number">0</span>, i<span class="number">-1</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h3 id="계수-정렬"><a href="#계수-정렬" class="headerlink" title="계수 정렬"></a>계수 정렬</h3><h5 id="O-n-시간에-동작-최악의-경우에는-O-n2-시간에-동작"><a href="#O-n-시간에-동작-최악의-경우에는-O-n2-시간에-동작" class="headerlink" title="O(n)시간에 동작, 최악의 경우에는 O(n2)시간에 동작"></a>O(n)시간에 동작, 최악의 경우에는 O(n<sup>2)시간에 동작</sup></h5><p>배열에서 각 숫자가 몇번 들어가는지를 이용하는 정렬 방법<br>먼저 각 숫자가 몇 번 들어가는지를 세어 주고<br>이 횟수를 누적 합 배열로 만들어준다.<br>그리고 나서 처음 수열을 역순으로 살펴보면서 누적 합 배열과 비교하며 자리를 찾아간다.<br>원소의 값이 크면 클수록 퀵정렬이나 힙정렬이 더 빠르다. 따라서 원소의 값이 아주 작을 때만 사용하는 것이 좋다.(0~10)</p>
+<h3 id="계수-정렬"><a href="#계수-정렬" class="headerlink" title="계수 정렬"></a>계수 정렬</h3><h5 id="O-n-시간에-동작-최악의-경우에는-O-n2-시간에-동작"><a href="#O-n-시간에-동작-최악의-경우에는-O-n2-시간에-동작" class="headerlink" title="O(n)시간에 동작, 최악의 경우에는 O(n2 )시간에 동작"></a>O(n)시간에 동작, 최악의 경우에는 O(n<sup>2 )시간에 동작</sup></h5><p>배열에서 각 숫자가 몇번 들어가는지를 이용하는 정렬 방법<br>먼저 각 숫자가 몇 번 들어가는지를 세어 주고<br>이 횟수를 누적 합 배열로 만들어준다.<br>그리고 나서 처음 수열을 역순으로 살펴보면서 누적 합 배열과 비교하며 자리를 찾아간다.<br>원소의 값이 크면 클수록 퀵정렬이나 힙정렬이 더 빠르다. 따라서 원소의 값이 아주 작을 때만 사용하는 것이 좋다.(0~10)</p>
 <figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">int</span>[] <span class="title">CountingSort</span>(<span class="params"><span class="keyword">int</span>[] a, <span class="keyword">int</span> n</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">int</span>[] tmp = <span class="keyword">new</span> <span class="keyword">int</span>[a의 최댓값 + <span class="number">1</span>];</span><br><span class="line">	<span class="keyword">int</span>[] result = <span class="keyword">new</span> <span class="keyword">int</span>[n];</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++)&#123;</span><br><span class="line">		tmp[a[i]]++;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; tmp.Length; i++)&#123;</span><br><span class="line">		tmp[i] += tmp[i<span class="number">-1</span>];</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = n<span class="number">-1</span>; i &gt;= <span class="number">0</span>; i--)&#123;</span><br><span class="line">		result[--tmp[a[i]]] = a[i];</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>알고리즘</category>
@@ -147,19 +160,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>마크다운</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>너의 결혼식 감상평</title>
-    <url>/2020/05/30/onyourweddingday/%5Bobject%20Object%5D/%5Bobject%20Object%5D/</url>
-    <content><![CDATA[<p>“첫사랑은 이루어지지 않는다”라는 말이 있다. 나는 경험상 이 말을 믿게 되었다. 그러나 내 주변에는 첫사랑으로 2000일이 넘도록 사귀고 있는 현재진행형 커플도 있다. 하지만 이런 경우가 많은가? 절대 그렇지 않다. 주변을 둘러보면 알 수 있을 것이다. 그럼 왜 첫사랑은 이루어지지 않는 것일까?<br>이 영화는 ‘첫사랑’에 대한 소재를 아주 현실적으로 사용하고 있다. 주인공 ‘황우연’은 고등학교 때 전학 온 여주 ‘환승희’에게 한눈에 반한 뒤로 세월이 흘러도 쭉 첫사랑인 그녀만 바라보는 캐릭터이다. 그러나 매번 만날때마다 타이밍이 좋지 않다. 한번은 여주에게 남친이 있고 한번은 남주에게 여친이 있고…(감독이 정말 잔인하다.) 이 영화는 ‘황우연’의 시점으로만 이야기가 전개되는데 이 시점이 ‘황우연’에게 더 공감되고 응원하게 만드는 데에 큰 역할을 했다고 생각한다. 양쪽 시점으로 전개됐다면 서로의 상황을 이해시키려는 감독의 목적에 의해 한명에게 이입시킬때보다 ‘영화’라는 매체가 부각되어 큰 여운을 주지는 못했을 것이다.<br>‘황우연’의 시점으로 그가 여주를 얼마나 사랑했는지를 알기에 엔딩이 더욱 안쓰러웠고 씁쓸했다. 하지만 인생이라는 게 다 그렇지 않겠는가? 첫사랑은 ‘첫’사랑일 뿐이다. 영화에 나온 대사처럼 버스가 가면 다음 버스가 오듯이 첫사랑의 어리숙함을 딛고 일어서야만 더욱 더 성장함으로서 진실된 사랑을 할 수 있다. 이 영화의 포스터는 사진을 세로로 이어붙인 형태인데 영화를 다 보고 나니 이것이 필름을 상징한다는 느낌을 받았다. 필름을 재생하면 사진 하나하나가 지나가면서 한편의 영화가 되듯이, 첫사랑도 흘러흘러 하나의 추억으로 남는다는 감독의 의도가 담긴 게 아닐까?<br>자, 그럼 처음 던졌던 질문에 대한 답은 나왔다고 생각한다. 이 글을 읽은 독자들도 한번 자신의 인생을 되돌아보며 첫사랑에 대해 생각해보자. 자신의 첫사랑이 어땠는지를.</p>
-]]></content>
-      <categories>
-        <category>리뷰</category>
-        <category>영화</category>
-      </categories>
-      <tags>
-        <tag>영화 - 리뷰 - 감상 - 너의결혼식</tag>
       </tags>
   </entry>
 </search>
