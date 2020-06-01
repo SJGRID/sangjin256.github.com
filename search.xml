@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>안녕하세요!</title>
+    <url>/2020/05/28/first/%5Bobject%20Object%5D/%5Bobject%20Object%5D/</url>
+    <content><![CDATA[<p>안녕하세요 현재 대학생인 게임개발자 지망생입니다.<br>앞으로 여기에다가 게임 개발 일지나 알고리즘 풀이등을 올릴 예정입니다.<br>자기계발을 위해 조금씩이라도 꾸준히 포스팅하겠습니다!</p>
+]]></content>
+      <categories>
+        <category>잡담</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>알고리즘</tag>
+        <tag>게임 개발</tag>
+        <tag>시작</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>정렬 알고리즘</title>
     <url>/2020/05/30/sort/%5Bobject%20Object%5D/%5Bobject%20Object%5D/</url>
     <content><![CDATA[<h3 id="정렬이란"><a href="#정렬이란" class="headerlink" title="정렬이란?"></a>정렬이란?</h3><p>정렬(sorting)은 이름, 학번, 키 등 핵심 항목의 대소 관계에 따라 데이터 집합을 일정한 순서로 줄지어 늘어서도록 바꾸는 작업을 말한다. 정렬을 하면 검색을 더 쉽게 할 수 있게 된다.</p>
@@ -132,21 +147,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>마크다운</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>안녕하세요!</title>
-    <url>/2020/05/28/first/%5Bobject%20Object%5D/%5Bobject%20Object%5D/</url>
-    <content><![CDATA[<p>안녕하세요 현재 대학생인 게임개발자 지망생입니다.<br>앞으로 여기에다가 게임 개발 일지나 알고리즘 풀이등을 올릴 예정입니다.<br>자기계발을 위해 조금씩이라도 꾸준히 포스팅하겠습니다!</p>
-]]></content>
-      <categories>
-        <category>잡담</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>알고리즘</tag>
-        <tag>게임 개발</tag>
-        <tag>시작</tag>
       </tags>
   </entry>
 </search>
