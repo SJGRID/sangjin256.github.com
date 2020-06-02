@@ -9,8 +9,28 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>게임 개발을 공부하고 있는 대학생입니다.</description>
-    <pubDate>Mon, 01 Jun 2020 12:03:57 GMT</pubDate>
+    <pubDate>Tue, 02 Jun 2020 00:43:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>다양한 방법으로 피보나치 수 구하기 C#</title>
+      <link>http://sangjin256.github.io/2020/06/01/fibonacci/[object%20Object]/[object%20Object]/</link>
+      <guid>http://sangjin256.github.io/2020/06/01/fibonacci/[object%20Object]/[object%20Object]/</guid>
+      <pubDate>Mon, 01 Jun 2020 14:35:28 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h3 id=&quot;피보나치란&quot;&gt;&lt;a href=&quot;#피보나치란&quot; class=&quot;headerlink&quot; title=&quot;피보나치란?&quot;&gt;&lt;/a&gt;피보나치란?&lt;/h3&gt;&lt;p&gt;수학에서, 피보나치 수(영어: Fibonacci numbers)는 첫째 및 둘째 항이 1이며 그 뒤의
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<h3 id="피보나치란"><a href="#피보나치란" class="headerlink" title="피보나치란?"></a>피보나치란?</h3><p>수학에서, 피보나치 수(영어: Fibonacci numbers)는 첫째 및 둘째 항이 1이며 그 뒤의 모든 항은 바로 앞 두 항의 합인 수열이다.<br>처음 여섯 항은 각각 1, 1, 2, 3, 5, 8이다. 편의상 0번째 항을 0으로 두기도 한다.<br><a href="https://ko.wikipedia.org/wiki/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%EC%88%98" target="_blank" rel="external nofollow noopener noreferrer">위키백과</a>{\displaystyle F_{0}=0}<br>{\displaystyle F_{1}=1}{\displaystyle F_{1}=1}<br>{\displaystyle F_{n}=F_{n-1}+F_{n-2}\qquad (n\in {2,3,4,\dots })}{\displaystyle F_{n}=F_{n-1}+F_{n-2}\qquad (n\in {2,3,4,\dots })}<br>```csharp</p>]]></content:encoded>
+      
+      <comments>http://sangjin256.github.io/2020/06/01/fibonacci/[object%20Object]/[object%20Object]/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>정렬 알고리즘</title>
